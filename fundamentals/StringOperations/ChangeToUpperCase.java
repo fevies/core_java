@@ -1,7 +1,8 @@
 public class ChangeToUpperCase {
 	public static void main(String[] args) {
 
-		String changeToUpper = "Changes the folowing to upper case";
-		System.out.println("sentence = " + changeToUpper);
+		String word = "Changes the folowing to upper case and lower case";
+		System.out.println("sentence uppercase = " + word.toUpperCase());
+		System.out.println(" sentence to lowercase =" + word.toLowerCase());
 	}
 }
